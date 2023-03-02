@@ -1,0 +1,8 @@
+button {
+    font-style: italic;
+    
+    background-color: burlywood;
+    color: darkblue;
+    margin: 5px 5px;
+    padding: 1px;
+}

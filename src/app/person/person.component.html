@@ -1,0 +1,9 @@
+<h1> Types of People </h1>
+
+<button type="button" (click)="selectedPerson()">
+    Introvert 
+</button>
+
+
+
+<app-person-details *ngIf="personDetails" [personDetails]="{id: 1, name: 'Riya'}"> </app-person-details>
